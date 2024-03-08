@@ -51,3 +51,36 @@ color: #f0e800;
     font-size: 54px;
     font-weight: 700;
 }
+.Home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #65c2e7;
+}
+.Home-content p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.Home-content .box{
+    width: 100px;
+    height: 50px;
+    background-color: #081b29;
+}
+.box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background: #65c2e7;
+    border:2px solid #65c2e7;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #65c2e7;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;   
+}
+.box a{
+    background: transparent;
+    color: #65c2e7;
+}
