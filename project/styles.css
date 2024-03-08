@@ -6,6 +6,7 @@
 }
 body{
     background:#081b29;
+    color: #ededed;
 }
 .header{
     position: fixed;
@@ -37,3 +38,16 @@ body{
 .navbar a.active {
 color: #f0e800;
 } 
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.Home-content{
+    max-width: 600px;
+}
+.Home-content h1{
+    font-size: 54px;
+    font-weight: 700;
+}
