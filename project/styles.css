@@ -1,32 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background:#081b29;
+
+body {
+    background: #081b29;
     color: #ededed;
 }
-.header{
+
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background:transparent;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
-.logo{
+
+.logo {
     font-size: 25px;
     color: #ededed;
     text-decoration: none;
     font-weight: 600;
 }
-.navbar a{
+
+.navbar a {
     font-size: 18px;
     color: #ededed;
     text-decoration: none;
@@ -34,53 +38,82 @@ body{
     margin-left: 35px;
     transition: .3s;
 }
+
 .navbar a:hover,
 .navbar a.active {
-color: #f0e800;
-} 
-.Home{
+    color: #f0e800;
+}
+
+.Home {
     height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10%;
 }
-.Home-content{
+
+.Home-content {
     max-width: 600px;
 }
-.Home-content h1{
+
+.Home-content h1 {
     font-size: 54px;
     font-weight: 700;
+    line-height: 1.2;
 }
-.Home-content h3{
+
+.Home-content h3 {
     font-size: 32px;
     font-weight: 700;
     color: #65c2e7;
 }
-.Home-content p{
+
+.Home-content p {
     font-size: 16px;
     margin: 20px 0 40px;
 }
-.Home-content .box{
+
+.Home-content .box {
     width: 100px;
     height: 50px;
     background-color: #081b29;
 }
+
 .box a {
+    position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 200px;
     height: 100%;
     background: #65c2e7;
-    border:2px solid #65c2e7;
+    border: 2px solid #65c2e7;
     border-radius: 8px;
     font-size: 20px;
     color: #65c2e7;
     text-decoration: none;
     font-weight: 700;
-    letter-spacing: 1px;   
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
 }
-.box a{
+
+.box a {
     background: transparent;
     color: #65c2e7;
+}
+
+.box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: yellow;
+    z-index: -1;
+    transition: .5s;
+}
+
+.box a:hover::before {
+    width: 100%;
 }
