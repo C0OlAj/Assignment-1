@@ -211,3 +211,73 @@ body {
 .bitmoji:hover img {
     opacity: 0;
 }
+.Contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Contact-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.Contact-content h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.Contact-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #65c2e7;
+}
+
+.Contact-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.Contact-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact-content label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Contact-content input[type="text"],
+.Contact-content input[type="email"],
+.Contact-content textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #65c2e7;
+    font-size: 16px;
+}
+
+.Contact-content textarea {
+    resize: vertical;
+}
+
+.Contact-content button {
+    padding: 10px 20px;
+    background-color: #65c2e7;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Contact-content button:hover {
+    background-color: #5aa7d7;
+}
