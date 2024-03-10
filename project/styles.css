@@ -281,3 +281,36 @@ body {
 .Contact-content button:hover {
     background-color: #5aa7d7;
 }
+.Site-Reports {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.Site-Reports-content {
+    max-width: 600px;
+    text-align: center;
+}
+
+.Site-Reports-content h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.Site-Reports-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.Site-Reports-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+.Site-Reports-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
