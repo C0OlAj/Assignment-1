@@ -320,16 +320,14 @@ body {
 
 
 .Site-Reports {
-    height: 100vh;
+    height: 150vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 25%;
 }
 
 .Site-Reports-content {
     max-width: 600px;
-    text-align: center;
 }
 
 .Site-Reports-content h1 {
@@ -338,9 +336,10 @@ body {
     line-height: 1.2;
 }
 
-.Site-Reports-content p {
-    font-size: 16px;
-    margin: 20px 0 40px;
+.Site-Reports-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #65c2e7;
 }
 
 .Site-Reports-content p {
@@ -348,47 +347,6 @@ body {
     margin: 20px 0 40px;
 }
 
-.Site-Reports-content p {
-    font-size: 16px;
-    margin: 20px 0 40px;
-}
-
-@keyframes slowBlink {
-
-    0%,
-    100% {
-        box-shadow: 0 0 0 5px #100d0d00;
-    }
-
-    50% {
-        box-shadow: 0 0 0 5px rgb(216, 213, 213);
-    }
-}
-
-.Site-Reports-content {
-
-    max-width: 700px;
-    max-height: 700px;
-    text-align: center;
-
-
-    position: relative;
-    animation: slowBlink 3s infinite;
-
-}
-
-.Site-Reports-content {
-    max-width: 600px;
-    text-align: center;
-    padding: 30px;
-    border: solid 8px transparent;
-    border-radius: 10px;
-    position: relative;
-    animation: slowBlink 3s infinite;
-
-
-    border-image: linear-gradient(45deg, yellow, orange, #65c2e7) 1;
-}
 
 .Projects {
     height: 150vh;
