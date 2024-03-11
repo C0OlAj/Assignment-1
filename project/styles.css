@@ -422,4 +422,42 @@ body {
 .Projects-content .project-link:hover::before {
     width: 100%;
 }
+.Video {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 25%;
+}
 
+.Video-content {
+    max-width: 600px;
+    text-align: center; 
+}
+
+.Video-content h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px; 
+    color: #65c2e7;
+}
+
+.Video-content p {
+    font-size: 16px;
+    margin-bottom: 40px; 
+}
+
+iframe {
+    border: 5px solid #1f2b30;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(186, 241, 24, 0.2); 
+    transition: transform 0.3s ease; 
+
+iframe:hover {
+    transform: scale(1.05); 
+}
+
+}
