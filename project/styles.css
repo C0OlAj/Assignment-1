@@ -536,6 +536,28 @@ iframe:hover {
     .Projects-content .project a {
         font-size: 2vw;
     }
+    .Contact-content h1 {
+        font-size: 2.5vw;
+    }
+
+    .Contact-content p {
+        font-size: 1.5vw;
+    }
+
+    .Contact-content form label {
+        font-size: 2vw;
+    }
+
+    .Contact-content form input[type="text"],
+    .Contact-content form input[type="email"],
+    .Contact-content form textarea {
+        width: 90%;
+        font-size: 1vw;
+    }
+
+    .Contact-content form button {
+        font-size: 2vw;
+    }
 }
 
 
@@ -618,6 +640,29 @@ iframe:hover {
     .Projects-content .project a {
         font-size: 3vw;
     }
+    .Contact-content h1 {
+        font-size: 8vw;
+    }
+
+    .Contact-content p {
+        font-size: 4vw;
+    }
+
+    .Contact-content form label {
+        font-size: 4vw;
+    }
+
+    .Contact-content form input[type="text"],
+    .Contact-content form input[type="email"],
+    .Contact-content form textarea {
+        width: 90%;
+        font-size: 2.5vw;
+    }
+
+    .Contact-content form button {
+        font-size: 4vw;
+        margin-top:30px;
+    }
 }
 
 
@@ -699,5 +744,28 @@ iframe:hover {
 
     .Projects-content .project a {
         font-size: 4vw;
+    }
+    .Contact-content h1 {
+        font-size: 10vw;
+    }
+
+    .Contact-content p {
+        font-size: 6vw;
+    }
+
+    .Contact-content form label {
+        font-size: 6vw;
+    }
+
+    .Contact-content form input[type="text"],
+    .Contact-content form input[type="email"],
+    .Contact-content form textarea {
+        width: 90%;
+        font-size: 3vw;
+    }
+
+    .Contact-content form button {
+        font-size: 6vw;
+        margin-top:20px;
     }
 }
