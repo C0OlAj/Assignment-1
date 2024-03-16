@@ -494,8 +494,7 @@ iframe:hover {
 
     
     .Home-sci a {
-        font-size: 2vw; 
-        margin: 3 5px; 
+        font-size: 2.5vw;  
     }
 
     .bitmoji-container {
@@ -557,6 +556,18 @@ iframe:hover {
 
     .Contact-content form button {
         font-size: 2vw;
+    }
+    .Site-Reports-content h1 {
+        font-size: 4vw;
+        margin-top:700px;
+    }
+
+    .Site-Reports-content p {
+        font-size: 2vw;
+    }
+
+    .Site-Reports-content h2 {
+        font-size: 3vw;
     }
 }
 
@@ -663,6 +674,18 @@ iframe:hover {
         font-size: 4vw;
         margin-top:30px;
     }
+    .Site-Reports-content h1 {
+        font-size: 5vw;
+        margin-top:700px;
+    }
+
+    .Site-Reports-content p {
+        font-size: 3vw;
+    }
+
+    .Site-Reports-content h2 {
+        font-size: 4vw;
+    }
 }
 
 
@@ -768,4 +791,17 @@ iframe:hover {
         font-size: 6vw;
         margin-top:20px;
     }
+    .Site-Reports-content h1 {
+        font-size: 6vw;
+        margin-top:750px;
+    }
+
+    .Site-Reports-content p {
+        font-size: 4vw;
+    }
+
+    .Site-Reports-content h2 {
+        font-size: 5vw;
+    }
 }
+
