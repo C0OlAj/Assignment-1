@@ -470,7 +470,7 @@ iframe:hover {
 
     .navbar a {
         font-size: 2vw; 
-        margin: 8px 1; 
+        margin: 8px 15px; 
     }
 
     .Home-content h1 {
@@ -582,7 +582,7 @@ iframe:hover {
 
     .navbar a {
         font-size: 3vw; 
-        margin: 5px 1; 
+        margin: 5px; 
     }
 
     .Home-content h1 {
@@ -804,4 +804,5 @@ iframe:hover {
         font-size: 5vw;
     }
 }
+
 
