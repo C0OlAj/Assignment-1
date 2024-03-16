@@ -454,10 +454,160 @@ iframe {
     height: 315px;
     margin: auto;
     box-shadow: 0 8px 16px 0 rgba(186, 241, 24, 0.2); 
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
+}
 
 iframe:hover {
     transform: scale(1.05); 
 }
+@media screen and (max-width: 1100px) {
 
+    .navbar {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px 20px;
+    }
+
+    .navbar a {
+        font-size: 2vw; 
+        margin: 8px 1; 
+    }
+
+    .Home-content h1 {
+        font-size: 4vw; 
+    }
+
+    .Home-content h3 {
+        font-size: 3vw; 
+        margin-right: 100px;
+    }
+
+    .Home-content p {
+        font-size: 2vw;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .Home-content .box a {
+        font-size: 2vw; 
+    }
+
+    
+    .Home-sci a {
+        font-size: 2vw; 
+        margin: 3 5px; 
+    }
+
+    .bitmoji-container {
+        right: 5%;
+    }
+
+    .bitmoji {
+        width: 165px; 
+        height: 160px; 
+    }
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .navbar {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px 20px;
+    }
+
+    .navbar a {
+        font-size: 3vw; 
+        margin: 5px 1; 
+    }
+
+    .Home-content h1 {
+        font-size: 5vw; 
+    }
+
+    .Home-content h3 {
+        font-size: 4vw; 
+        margin-right: 100px;
+    }
+
+    .Home-content p {
+        font-size: 3vw;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .Home-content .box a {
+        font-size: 2.5vw; 
+    }
+
+    .Home-sci {
+        margin-top: 10px; 
+    } 
+
+    .Home-sci a {
+        font-size: 3vw; 
+        margin: 0 5px; 
+    }
+
+    .bitmoji-container {
+        right: 5%;
+    }
+
+    .bitmoji {
+        width: 170px; 
+        height: 170px; 
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding: 10px 20px;
+    }
+
+    .navbar a {
+        font-size: 4vw; 
+        margin: 5px 0; 
+    }
+
+    .Home-content h1 {
+        font-size: 8vw; 
+    }
+
+    .Home-content h3 {
+        font-size: 6vw; 
+        margin-right: 100px;
+    }
+
+    .Home-content p {
+        font-size: 4vw;
+        text-align: left;
+        margin-right: 100px;
+    }
+
+    .Home-content .box a {
+        font-size: 4vw; 
+    }
+
+    .Home-sci {
+        margin-top: 10px; 
+    } 
+
+    .Home-sci a {
+        font-size: 6vw; 
+        margin: 0 5px; 
+    }
+
+    .bitmoji-container {
+        right: 5%;
+    }
+
+    .bitmoji {
+        width: 120px; 
+        height: 120px; 
+    }
 }
